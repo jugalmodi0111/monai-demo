@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Data / artifacts
+/data/
+outputs/
+logs/
+checkpoints/
+artifacts/
+*.nii
+*.nii.gz
+*.dcm
+*.tar
+*.zip
+*.h5
+*.pt
+*.pth
+
+# VS Code
+.vscode/
