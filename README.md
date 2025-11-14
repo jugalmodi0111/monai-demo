@@ -246,3 +246,4 @@ Please respect dataset licenses (CIFAR-10: free for research; ImageNet: registra
 **Maintainer**: Jugal Modi ([@jugalmodi0111](https://github.com/jugalmodi0111))  
 **Repository**: [vit-flax-jax-transfer-learning](https://github.com/jugalmodi0111/vit-flax-jax-transfer-learning)  
 **Last Updated**: November 2025
+# vit-flax-jax-transfer-learning
