@@ -1,34 +1,98 @@
-# OS
-.DS_Store
-
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Virtual environments
 venv/
-.envrc
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# Jupyter
-.ipynb_checkpoints/
-*.nbconvert.ipynb
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# Data / artifacts
-/data/
-outputs/
-logs/
+# TensorFlow / TFDS
+tensorflow_datasets/
+tfds_data/
+*.tfrecord
+*.index
+*.data-*
+checkpoint
+events.out.tfevents.*
+
+# Model checkpoints & logs
 checkpoints/
-artifacts/
-*.nii
-*.nii.gz
-*.dcm
-*.tar
-*.zip
-*.h5
+logs/
+runs/
+*.ckpt
 *.pt
 *.pth
+*.h5
+*.pb
+saved_model/
+*.tflite
 
-# VS Code
-.vscode/
+# Dataset caches
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Generated reports (optional: uncomment to track)
+# trim_report.json
+# trim_report.csv
+# trim_log.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Large data directories (exclude if cloned full repos)
+flax/docs/
+flax/tests/
+flax/examples/
+flax/benchmarks/
+flax/.github/
+flax/images/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
